@@ -23,7 +23,7 @@
 quantumcircuit <- function(nqubit){
   as.numeric(nqubit)
   if (nqubit>0 | !is.null(nqubit)){
-    circuit <<-vector(mode="list", length=nqubit)
+    circuit <-vector(mode="list", length=nqubit)
     names(circuit)<<- paste("q",1:nqubit, sep = "_")
     for (i in 1:nqubit){
       circuit[i]<-array(list(c(q0)))
