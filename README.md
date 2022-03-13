@@ -1,1 +1,2 @@
 "# QuantuR" 
+The project is a simple program to create a circuit, it is posible create a circuit of several qubits but I worked with four qubits as maximum all the qubits begins in state 0.The circuit can changed the state e.g if the circuit of two qubits has state 00 can change to 01 state or 11 state.The gates Hadamard, X gate can work with one qubit of the circuit, the Cnot gate can work with two qubits.
